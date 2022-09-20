@@ -1,4 +1,5 @@
 import { Card, Col, Row } from "react-bootstrap"
+import { AddToCartBn } from "../components/AddToCartBn"
 import donations from "../data/donations.json"
 
 export function Store() {
@@ -7,8 +8,6 @@ export function Store() {
         <Row md={2} xs={1} lg={3} className="g-3">
             {donations.map(donation => (
                 <Col key={donation.id}>
-                    {JSON.stringify(donation)}
-                    <br></br>
                     <Card>
                         <Card.Img
                             variant="bottom"
@@ -19,15 +18,14 @@ export function Store() {
                         <Card.Body className="d-flex flex-column">
                             <Card.Title
                                 className="d-flex 
-                                justify-content-space-between 
+                                justify-content-between 
                                 align-items-baseline 
                                 mb-4">
-                                <span>{donation.name}</span>
-                                <span>{donation.price}</span>
+                                <span className="fs-2">{donation.name}</span>
+                                <span className="ms-2 text-muted">${donation.price}.00</span>
                             </Card.Title>
+                            <AddToCartBn />
                         </Card.Body>
-                        <br></br>
-                        <br></br>
                     </Card>
 
                 </Col>
