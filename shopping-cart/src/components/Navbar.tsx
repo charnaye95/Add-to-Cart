@@ -13,8 +13,8 @@ export function Navbar() {
                     <Nav.Link to={"/about"} as={NavLink}>
                         About
                     </Nav.Link>
-                    <Nav.Link to={"/store"} as={NavLink}>
-                        Store
+                    <Nav.Link to={"/donate"} as={NavLink}>
+                        Donate
                     </Nav.Link>
                 </Nav>
                 <Button className="rounded-circle" variant="outline-dark" style={{ width: "50px", height: "50px", position: "relative" }}>
