@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name": "Cancer Research Institute",
+        "price": 25.00,
+        "imgURL": "/imgs/CRI.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "National Alliance on Mental Illness",
+        "price": 25.00,
+        "imgURL": "/imgs/NAMI.webp"
+    },
+    {
+        "id": 3,
+        "name": "Action Against Hunger",
+        "price": 25.00,
+        "imgURL": "/imgs/AAH.webp"
+    },
+    {
+        "id": 4,
+        "name": "American Civil Liberties Union",
+        "price": 25.00,
+        "imgURL": "/imgs/ACLU.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "National Alliance to End Homelessness",
+        "price": 25.00,
+        "imgURL": "/imgs/NAEH.jpeg" 
+    }
+    
+]
