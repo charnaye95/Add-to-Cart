@@ -1,8 +1,11 @@
 import { Card, Col, Row } from "react-bootstrap"
 import { AddToCartBn } from "../components/AddToCartBn"
+// import { useShoppingCart } from "../context/ShoppingCartContext"
 import donations from "../data/donations.json"
 
 export function Donate() {
+    // const {getQuantity, increaseQuantity, decreaseQuantity, removeFromCart} = useShoppingCart()
+    // const quantity = getQuantity(id)
     return <>
         <h1>Donate</h1>
         <Row md={2} xs={1} lg={3} className="g-3">
